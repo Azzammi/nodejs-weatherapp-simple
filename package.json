@@ -1,24 +1,30 @@
 {
-  "name": "simple-nodejs-wheater-app",
+  "name": "nodejs-weatherapp-simple",
   "version": "1.0.0",
   "description": "Simple nodejs based weather app",
-  "main": "index.js",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.8",
+    "express": "^4.16.3",
+    "request": "^2.85.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bmorelli25/simple-nodejs-weather-app.git",
+    "url": "git+https://github.com/Azzammi/nodejs-weatherapp-simple.git"
+  },
   "keywords": [
     "nodejs"
   ],
   "author": "Luthfi",
   "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "ejs": "^2.5.8",
-    "express": "^4.16.3",
-    "request": "^2.85.0"
-  }
+  "bugs": {
+    "url": "https://github.com/Azzammi/nodejs-weatherapp-simple/issues"
+  },
+  "homepage": "https://github.com/Azzammi/nodejs-weatherapp-simple#readme"
 }
